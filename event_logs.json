@@ -1,0 +1,324 @@
+[
+  {
+    "timestamp": "2026-01-29 08:41:32.832113",
+    "zone": "Zone_B",
+    "disaster_type": "flood",
+    "severity": 7,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:41:35.832190",
+    "zone": "Zone_B",
+    "disaster_type": "earthquake",
+    "severity": 4,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:41:38.832291",
+    "zone": "Zone_C",
+    "disaster_type": "earthquake",
+    "severity": 9,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:41:41.832704",
+    "zone": "Zone_A",
+    "disaster_type": "fire",
+    "severity": 1,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:41:44.832637",
+    "zone": "Zone_D",
+    "disaster_type": "fire",
+    "severity": 2,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:41:47.832771",
+    "zone": "Zone_C",
+    "disaster_type": "earthquake",
+    "severity": 10,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:41:50.832183",
+    "zone": "Zone_C",
+    "disaster_type": "flood",
+    "severity": 7,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:41:53.834183",
+    "zone": "Zone_B",
+    "disaster_type": "earthquake",
+    "severity": 2,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:41:56.832378",
+    "zone": "Zone_C",
+    "disaster_type": "flood",
+    "severity": 8,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:41:59.832531",
+    "zone": "Zone_B",
+    "disaster_type": "earthquake",
+    "severity": 5,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:02.832692",
+    "zone": "Zone_D",
+    "disaster_type": "fire",
+    "severity": 9,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:05.832780",
+    "zone": "Zone_A",
+    "disaster_type": "flood",
+    "severity": 5,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:08.832974",
+    "zone": "Zone_D",
+    "disaster_type": "earthquake",
+    "severity": 8,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:11.831951",
+    "zone": "Zone_D",
+    "disaster_type": "fire",
+    "severity": 10,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:14.832186",
+    "zone": "Zone_C",
+    "disaster_type": "earthquake",
+    "severity": 8,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:17.832499",
+    "zone": "Zone_A",
+    "disaster_type": "flood",
+    "severity": 9,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:20.832810",
+    "zone": "Zone_C",
+    "disaster_type": "earthquake",
+    "severity": 5,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:23.831992",
+    "zone": "Zone_A",
+    "disaster_type": "flood",
+    "severity": 5,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:26.832380",
+    "zone": "Zone_B",
+    "disaster_type": "fire",
+    "severity": 1,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:29.832799",
+    "zone": "Zone_C",
+    "disaster_type": "flood",
+    "severity": 3,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:32.831953",
+    "zone": "Zone_C",
+    "disaster_type": "fire",
+    "severity": 9,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:35.832081",
+    "zone": "Zone_C",
+    "disaster_type": "flood",
+    "severity": 7,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:38.832498",
+    "zone": "Zone_B",
+    "disaster_type": "fire",
+    "severity": 5,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:41.832855",
+    "zone": "Zone_C",
+    "disaster_type": "flood",
+    "severity": 7,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:44.832468",
+    "zone": "Zone_C",
+    "disaster_type": "fire",
+    "severity": 10,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:47.832206",
+    "zone": "Zone_D",
+    "disaster_type": "earthquake",
+    "severity": 8,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:50.832544",
+    "zone": "Zone_D",
+    "disaster_type": "fire",
+    "severity": 2,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:53.832772",
+    "zone": "Zone_B",
+    "disaster_type": "flood",
+    "severity": 6,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:56.832003",
+    "zone": "Zone_D",
+    "disaster_type": "fire",
+    "severity": 3,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:42:59.832304",
+    "zone": "Zone_D",
+    "disaster_type": "earthquake",
+    "severity": 7,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:02.832375",
+    "zone": "Zone_D",
+    "disaster_type": "fire",
+    "severity": 7,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:05.832732",
+    "zone": "Zone_A",
+    "disaster_type": "earthquake",
+    "severity": 8,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:08.832021",
+    "zone": "Zone_D",
+    "disaster_type": "earthquake",
+    "severity": 9,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:11.832456",
+    "zone": "Zone_C",
+    "disaster_type": "fire",
+    "severity": 9,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:14.832920",
+    "zone": "Zone_C",
+    "disaster_type": "earthquake",
+    "severity": 5,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:17.831947",
+    "zone": "Zone_D",
+    "disaster_type": "flood",
+    "severity": 6,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:20.831949",
+    "zone": "Zone_A",
+    "disaster_type": "fire",
+    "severity": 5,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:23.831948",
+    "zone": "Zone_A",
+    "disaster_type": "flood",
+    "severity": 2,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:26.832562",
+    "zone": "Zone_A",
+    "disaster_type": "flood",
+    "severity": 1,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:29.832937",
+    "zone": "Zone_D",
+    "disaster_type": "earthquake",
+    "severity": 9,
+    "status": "CRITICAL"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:32.831946",
+    "zone": "Zone_C",
+    "disaster_type": "flood",
+    "severity": 6,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:35.832325",
+    "zone": "Zone_C",
+    "disaster_type": "fire",
+    "severity": 1,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:38.832755",
+    "zone": "Zone_D",
+    "disaster_type": "fire",
+    "severity": 3,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:41.832499",
+    "zone": "Zone_A",
+    "disaster_type": "earthquake",
+    "severity": 5,
+    "status": "MODERATE"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:44.832371",
+    "zone": "Zone_C",
+    "disaster_type": "fire",
+    "severity": 2,
+    "status": "MINOR"
+  },
+  {
+    "timestamp": "2026-01-29 08:43:47.833021",
+    "zone": "Zone_A",
+    "disaster_type": "fire",
+    "severity": 2,
+    "status": "MINOR"
+  }
+]
