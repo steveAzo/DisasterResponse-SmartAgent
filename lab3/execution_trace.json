@@ -109,5 +109,301 @@
     "event": "returned_to_base",
     "state_transition": "RETURNING \u2192 IDLE",
     "ready_for_next_task": true
+  },
+  {
+    "timestamp": "2026-02-21 03:44:08.239050",
+    "event": "disaster_detected",
+    "data": {
+      "timestamp": "2026-02-21 03:44:08.238739",
+      "zone": "Zone_C",
+      "disaster_type": "flood",
+      "severity": 7,
+      "status": "MODERATE"
+    },
+    "state_transition": "IDLE \u2192 RESPONDING",
+    "reason": "Severity 7 requires response"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:10.239565",
+    "event": "arrived_at_location",
+    "state_transition": "RESPONDING \u2192 RESCUING",
+    "location": "Zone_C"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:13.240003",
+    "event": "rescue_completed",
+    "state_transition": "RESCUING \u2192 RETURNING",
+    "task": {
+      "timestamp": "2026-02-21 03:44:08.238739",
+      "zone": "Zone_C",
+      "disaster_type": "flood",
+      "severity": 7,
+      "status": "MODERATE"
+    }
+  },
+  {
+    "timestamp": "2026-02-21 03:44:15.240649",
+    "event": "returned_to_base",
+    "state_transition": "RETURNING \u2192 IDLE",
+    "ready_for_next_task": true
+  },
+  {
+    "timestamp": "2026-02-21 03:44:18.239115",
+    "event": "disaster_detected",
+    "data": {
+      "timestamp": "2026-02-21 03:44:18.238712",
+      "zone": "Zone_B",
+      "disaster_type": "fire",
+      "severity": 6,
+      "status": "MODERATE"
+    },
+    "state_transition": "IDLE \u2192 RESPONDING",
+    "reason": "Severity 6 requires response"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:20.239522",
+    "event": "arrived_at_location",
+    "state_transition": "RESPONDING \u2192 RESCUING",
+    "location": "Zone_B"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:23.239393",
+    "event": "rescue_completed",
+    "state_transition": "RESCUING \u2192 RETURNING",
+    "task": {
+      "timestamp": "2026-02-21 03:44:18.238712",
+      "zone": "Zone_B",
+      "disaster_type": "fire",
+      "severity": 6,
+      "status": "MODERATE"
+    }
+  },
+  {
+    "timestamp": "2026-02-21 03:44:25.239831",
+    "event": "returned_to_base",
+    "state_transition": "RETURNING \u2192 IDLE",
+    "ready_for_next_task": true
+  },
+  {
+    "timestamp": "2026-02-21 03:44:25.240609",
+    "event": "disaster_detected",
+    "data": {
+      "timestamp": "2026-02-21 03:44:23.238061",
+      "zone": "Zone_D",
+      "disaster_type": "earthquake",
+      "severity": 7,
+      "status": "MODERATE"
+    },
+    "state_transition": "IDLE \u2192 RESPONDING",
+    "reason": "Severity 7 requires response"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:27.240944",
+    "event": "arrived_at_location",
+    "state_transition": "RESPONDING \u2192 RESCUING",
+    "location": "Zone_D"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:30.242250",
+    "event": "rescue_completed",
+    "state_transition": "RESCUING \u2192 RETURNING",
+    "task": {
+      "timestamp": "2026-02-21 03:44:23.238061",
+      "zone": "Zone_D",
+      "disaster_type": "earthquake",
+      "severity": 7,
+      "status": "MODERATE"
+    }
+  },
+  {
+    "timestamp": "2026-02-21 03:44:32.243666",
+    "event": "returned_to_base",
+    "state_transition": "RETURNING \u2192 IDLE",
+    "ready_for_next_task": true
+  },
+  {
+    "timestamp": "2026-02-21 03:44:33.238091",
+    "event": "disaster_detected",
+    "data": {
+      "timestamp": "2026-02-21 03:44:33.237785",
+      "zone": "Zone_B",
+      "disaster_type": "fire",
+      "severity": 8,
+      "status": "CRITICAL"
+    },
+    "state_transition": "IDLE \u2192 RESPONDING",
+    "reason": "Severity 8 requires response"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:35.240105",
+    "event": "arrived_at_location",
+    "state_transition": "RESPONDING \u2192 RESCUING",
+    "location": "Zone_B"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:38.239713",
+    "event": "rescue_completed",
+    "state_transition": "RESCUING \u2192 RETURNING",
+    "task": {
+      "timestamp": "2026-02-21 03:44:33.237785",
+      "zone": "Zone_B",
+      "disaster_type": "fire",
+      "severity": 8,
+      "status": "CRITICAL"
+    }
+  },
+  {
+    "timestamp": "2026-02-21 03:44:40.242365",
+    "event": "returned_to_base",
+    "state_transition": "RETURNING \u2192 IDLE",
+    "ready_for_next_task": true
+  },
+  {
+    "timestamp": "2026-02-21 03:44:40.243221",
+    "event": "disaster_detected",
+    "data": {
+      "timestamp": "2026-02-21 03:44:38.239859",
+      "zone": "Zone_C",
+      "disaster_type": "fire",
+      "severity": 7,
+      "status": "MODERATE"
+    },
+    "state_transition": "IDLE \u2192 RESPONDING",
+    "reason": "Severity 7 requires response"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:42.242790",
+    "event": "arrived_at_location",
+    "state_transition": "RESPONDING \u2192 RESCUING",
+    "location": "Zone_C"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:45.244680",
+    "event": "rescue_completed",
+    "state_transition": "RESCUING \u2192 RETURNING",
+    "task": {
+      "timestamp": "2026-02-21 03:44:38.239859",
+      "zone": "Zone_C",
+      "disaster_type": "fire",
+      "severity": 7,
+      "status": "MODERATE"
+    }
+  },
+  {
+    "timestamp": "2026-02-21 03:44:47.246169",
+    "event": "returned_to_base",
+    "state_transition": "RETURNING \u2192 IDLE",
+    "ready_for_next_task": true
+  },
+  {
+    "timestamp": "2026-02-21 03:44:47.247061",
+    "event": "disaster_detected",
+    "data": {
+      "timestamp": "2026-02-21 03:44:43.239128",
+      "zone": "Zone_B",
+      "disaster_type": "earthquake",
+      "severity": 8,
+      "status": "CRITICAL"
+    },
+    "state_transition": "IDLE \u2192 RESPONDING",
+    "reason": "Severity 8 requires response"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:49.248440",
+    "event": "arrived_at_location",
+    "state_transition": "RESPONDING \u2192 RESCUING",
+    "location": "Zone_B"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:52.248796",
+    "event": "rescue_completed",
+    "state_transition": "RESCUING \u2192 RETURNING",
+    "task": {
+      "timestamp": "2026-02-21 03:44:43.239128",
+      "zone": "Zone_B",
+      "disaster_type": "earthquake",
+      "severity": 8,
+      "status": "CRITICAL"
+    }
+  },
+  {
+    "timestamp": "2026-02-21 03:44:54.250682",
+    "event": "returned_to_base",
+    "state_transition": "RETURNING \u2192 IDLE",
+    "ready_for_next_task": true
+  },
+  {
+    "timestamp": "2026-02-21 03:44:54.251680",
+    "event": "disaster_detected",
+    "data": {
+      "timestamp": "2026-02-21 03:44:53.239238",
+      "zone": "Zone_A",
+      "disaster_type": "fire",
+      "severity": 10,
+      "status": "CRITICAL"
+    },
+    "state_transition": "IDLE \u2192 RESPONDING",
+    "reason": "Severity 10 requires response"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:56.252000",
+    "event": "arrived_at_location",
+    "state_transition": "RESPONDING \u2192 RESCUING",
+    "location": "Zone_A"
+  },
+  {
+    "timestamp": "2026-02-21 03:44:59.253642",
+    "event": "rescue_completed",
+    "state_transition": "RESCUING \u2192 RETURNING",
+    "task": {
+      "timestamp": "2026-02-21 03:44:53.239238",
+      "zone": "Zone_A",
+      "disaster_type": "fire",
+      "severity": 10,
+      "status": "CRITICAL"
+    }
+  },
+  {
+    "timestamp": "2026-02-21 03:45:01.254014",
+    "event": "returned_to_base",
+    "state_transition": "RETURNING \u2192 IDLE",
+    "ready_for_next_task": true
+  },
+  {
+    "timestamp": "2026-02-21 03:45:01.255012",
+    "event": "disaster_detected",
+    "data": {
+      "timestamp": "2026-02-21 03:44:58.237758",
+      "zone": "Zone_D",
+      "disaster_type": "earthquake",
+      "severity": 5,
+      "status": "MODERATE"
+    },
+    "state_transition": "IDLE \u2192 RESPONDING",
+    "reason": "Severity 5 requires response"
+  },
+  {
+    "timestamp": "2026-02-21 03:45:03.254120",
+    "event": "arrived_at_location",
+    "state_transition": "RESPONDING \u2192 RESCUING",
+    "location": "Zone_D"
+  },
+  {
+    "timestamp": "2026-02-21 03:45:06.255682",
+    "event": "rescue_completed",
+    "state_transition": "RESCUING \u2192 RETURNING",
+    "task": {
+      "timestamp": "2026-02-21 03:44:58.237758",
+      "zone": "Zone_D",
+      "disaster_type": "earthquake",
+      "severity": 5,
+      "status": "MODERATE"
+    }
+  },
+  {
+    "timestamp": "2026-02-21 03:45:08.256085",
+    "event": "returned_to_base",
+    "state_transition": "RETURNING \u2192 IDLE",
+    "ready_for_next_task": true
   }
 ]
